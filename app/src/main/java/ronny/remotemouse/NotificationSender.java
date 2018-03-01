@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class NotificationSender extends NotificationListenerService {
-    private String LOCAL_IP = "192.168.0.2";
+    private String LOCAL_IP = "";
     private Socket soc;
     private PrintWriter out;
     private Thread connector;

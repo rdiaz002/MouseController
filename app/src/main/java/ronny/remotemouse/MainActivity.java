@@ -24,7 +24,7 @@ import java.net.Socket;
 public class MainActivity extends AppCompatActivity {
     private EditText  ip, port;
     private TextView stats;
-    private String LOCAL_IP = "192.168.0.2";
+    private String LOCAL_IP = "";
     private int PORT = 444;
     private Socket soc;
     private PrintWriter out;
